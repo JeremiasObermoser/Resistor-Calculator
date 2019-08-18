@@ -29,6 +29,14 @@ button {
     overflow: hidden;
     height: 55px;
 }
+.copyright{
+    float: right;
+    color: white;
+    text-align: center;
+    height: 100%;
+    vertical-align: middle;
+    padding-right: 20px;
+}
 
 .header {
     font-family: 'Montserrat', sans-serif;

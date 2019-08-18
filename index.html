@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Jeremias Obermoser">
+    <meta name="description" content="calculator for resistor values from their respective color codes">
+
+    <title>Resistor Calculator</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="topnav">
+
+        </div>
+        <script>
+            $(document).ready(function() {
+                //animations for first band
+                //click on any button
+                $('button.first').click(function() {
+                    //reset all buttons
+                    $('button.first').css(
+                        "box-shadow","inset 0px 0px 0px 0px #ffffff"
+                    );
+                    //set this border
+                    $(this).css(
+                        "box-shadow","inset 0px 0px 0px 6px #ffffff"
+                    );
+                });
+                //animations for second Band
+                //click on any button
+                $('button.second').click(function() {
+                    //reset all buttons
+                    $('button.second').css(
+                        "box-shadow","inset 0px 0px 0px 0px #ffffff"
+                    );
+                    //set this border
+                    $(this).css(
+                        "box-shadow","inset 0px 0px 0px 6px #ffffff"
+                    );
+                });
+                //animatons for third band
+                //click on any button
+                $('button.third').click(function() {
+                    //reset all buttons
+                    $('button.third').css(
+                        "box-shadow","inset 0px 0px 0px 0px #ffffff"
+                    );
+                    //set this border
+                    $(this).css(
+                        "box-shadow","inset 0px 0px 0px 6px #ffffff"
+                    );
+                });
+            });
+        </script>
+        <div class="header">
+            <p id="head">Resistance Calculator</p>
+        </div>
+        <div class="mitte">
+            <div class="calculator">
+                <div class="designations">
+                    <span class="designationsitem">1st Band</span>
+                    <span class="designationsitem">2nd Band</span>
+                    <span class="designationsitem">3rd Band</span>
+                </div>
+                <div class="spacer1">
+
+                </div>
+                <div class="colors">
+                    <button type="button" name="button" class="first black" id="black1" onclick="update(0,'0')"></button>
+                    <button type="button" name="button" class="second black" id="black2" onclick="update(1,'0')"></button>
+                    <button type="button" name="button" class="third black" id="black3" onclick="update(2,'0')"></button>
+                    <button type="button" name="button" class="first brown" id="brown4" onclick="update(0,'1')"></button>
+                    <button type="button" name="button" class="second brown" id="brown5" onclick="update(1,'1')"></button>
+                    <button type="button" name="button" class="third brown" id="brown6" onclick="update(2,'10')"></button>
+                    <button type="button" name="button" class="first red" id="red7" onclick="update(0,'2')"></button>
+                    <button type="button" name="button" class="second red" id="red8" onclick="update(1,'2')"></button>
+                    <button type="button" name="button" class="third red" id="red9" onclick="update(2,'100')"></button>
+                    <button type="button" name="button" class="first orange" id="orange10"onclick="update(0,'3')"></button>
+                    <button type="button" name="button" class="second orange" id="orange11"onclick="update(1,'3')"></button>
+                    <button type="button" name="button" class="third orange" id="orange12"onclick="update(2,'1000')"></button>
+                    <button type="button" name="button" class="first yellow" id="yellow13"onclick="update(0,'4')"></button>
+                    <button type="button" name="button" class="second yellow" id="yellow14"onclick="update(1,'4')"></button>
+                    <button type="button" name="button" class="third yellow" id="yellow15"onclick="update(2,'10000')"></button>
+                    <button type="button" name="button" class="first green" id="green16"onclick="update(0,'5')"></button>
+                    <button type="button" name="button" class="second green" id="green17"onclick="update(1,'5')"></button>
+                    <button type="button" name="button" class="third green" id="green18"onclick="update(2,'100000')"></button>
+                    <button type="button" name="button" class="first blue" id="blue19"onclick="update(0,'6')"></button>
+                    <button type="button" name="button" class="second blue" id="blue20"onclick="update(1,'6')"></button>
+                    <button type="button" name="button" class="third blue" id="blue21"onclick="update(2,'1000000')"></button>
+                    <button type="button" name="button" class="first violet" id="violet22"onclick="update(0,'7')"></button>
+                    <button type="button" name="button" class="second violet" id="violet23"onclick="update(1,'7')"></button>
+                    <button type="button" name="button" class="third violet" id="violet24"onclick="update(2,'10000000')"></button>
+                    <button type="button" name="button" class="first grey" id="grey25"onclick="update(0,'8')"></button>
+                    <button type="button" name="button" class="second grey" id="grey26"onclick="update(1,'8')"></button>
+                    <button type="button" name="button" class="third  gold" id="gold27"onclick="update(2,'0.1')"></button>
+                    <button type="button" name="button" class="first white" id="white28"onclick="update(0,'9')"></button>
+                    <button type="button" name="button" class="second white" id="white29"onclick="update(1,'9')"></button>
+                    <button type="button" name="button" class="third silver" id="silver30"onclick="update(2,'0.01')"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

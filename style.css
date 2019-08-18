@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    padding: 25px 135px;
+    float: left;
+    border-width: 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 0px #ffffff;
+
+
+}
+
+#head {
+    margin: 0px;
+}
+
+.container {}
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    height: 55px;
+}
+
+.header {
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    width: 90%;
+    font-size: 96px;
+    font-size: 6vw;
+    text-align: center;
+}
+
+.mitte {
+    width: 100%;
+    text-align: center;
+}
+
+.calculator {
+    width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.designations {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.designationsitem {
+    display: block;
+    float: left;
+    position: relative;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.spacer1 {
+    width: 100%;
+    height: 50px;
+}
+
+.colors {
+    display: grid;
+    width: 900px;
+    height: 500px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 40px;
+}
+
+.black {
+    background-image: linear-gradient(to right, #000000 0%, #333333 100%);
+}
+
+.brown {
+    background-image: linear-gradient(to right, #2a0700 0%, #791a05 100%);
+}
+
+.red {
+    background: linear-gradient(90deg, rgba(195, 0, 0, 1) 0%, rgba(242, 0, 0, 1) 100%);
+}
+
+.orange {
+    background: linear-gradient(90deg, rgba(254, 102, 0, 1) 0%, rgba(242, 146, 0, 1) 100%);
+}
+
+.yellow {
+    background: linear-gradient(90deg, rgba(254, 170, 0, 1) 0%, rgba(242, 235, 0, 1) 100%);
+}
+
+.green {
+    background: linear-gradient(90deg, rgba(6, 164, 0, 1) 0%, rgba(70, 242, 0, 1) 100%);
+}
+
+.blue {
+    background: linear-gradient(90deg, rgba(0, 23, 219, 1) 0%, rgba(0, 167, 242, 1) 100%);
+}
+
+.violet {
+    background: linear-gradient(90deg, rgba(81, 0, 157, 1) 0%, rgba(219, 0, 242, 1) 100%);
+}
+
+.grey {
+    background: linear-gradient(90deg, rgba(60, 60, 60, 1) 0%, rgba(153, 153, 153, 1) 100%);
+}
+
+.white {
+    background: linear-gradient(90deg, rgba(207, 207, 207, 1) 0%, rgba(237, 237, 237, 1) 100%);
+}
+
+.gold {
+    background: linear-gradient(90deg, rgba(191, 158, 50, 1) 0%, rgba(255, 222, 115, 1) 54%, rgba(212, 175, 55, 1) 100%);
+}
+
+.silver {
+    background: linear-gradient(45deg, rgba(192, 192, 192, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(128, 128, 128, 1) 100%);
+}
+.yee{
+
+}
